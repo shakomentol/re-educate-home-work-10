@@ -235,3 +235,65 @@ li:nth-child(3) {
     width: 100%;
     height: 100%;
 }
+.bottom-block {
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.navigation {
+   width: 70%;
+   height: 100%;
+   display: flex;
+   justify-content: space-evenly;
+}
+.navigation ul li {
+    margin-top: 40px;
+    border-bottom: none;
+    font-size: 13px;
+}
+.navigation a {
+    color: rgba(0, 0, 0, 0.404);
+}
+.navigation h4 {
+    margin-top: 50px;
+    font-size: 13px;
+}
+.contact {
+    width: 29%;
+    height: 400px;
+    background-color: white;
+}
+.contact h4 {
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+.contact p {
+    text-align: left;
+    margin-left: 40px;
+    font-size: 13px;
+    margin-top: 100px;
+}
+.email-wrapper label {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 17px;
+}
+.input-wrapper {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 250px;
+}
+.input-wrapper input {
+    width: 200px;
+    height: 40px;
+}
+.input-wrapper button {
+    width: 40px;
+    height: 40px;
+    background-color: #0865DE;
+    color: white;
+    border: none;
+}
